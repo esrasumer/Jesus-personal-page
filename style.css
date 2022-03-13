@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(tree.jpg);
+    background-size: cover;
+}
+
+.box {
+    width: 450px;
+    background-color: rgb(79, 110, 84);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.box img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.box img:hover {
+    transform: scale(0.9);
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5 {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: white;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+    color: rgb(189, 182, 182);
+}
